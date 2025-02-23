@@ -4,19 +4,6 @@ A collection of my essential configuration files for bash, kitty, and tmux.
 
 ![showing the terminal](./docs/example_photo.png)
 
-## File Tree Structure 📁
-
-```text
-/Projects/my-dot-f/
-├── bash/
-│   └── .bashrc
-├── kitty/
-│   └── kitty.conf
-└── tmux/
-    ├── tmux_colors.sh
-    └── .tmux.conf
-```
-
 ## Installation Guide ⚙️
 
 ### Prerequisites
@@ -75,17 +62,14 @@ tmux source-file ~/.tmux.conf
 ## Features Overview ✨
 
 ### Bash
-- Custom prompt with git status
-- Common aliases (ll, la, etc.)
+- Custom aliases (c=clear ,t=tmux, ta=tmux attach, ...)
 - History optimizations
 
 ### Kitty
-- Custom font settings
-- Window layout preferences
-- Color scheme configurations
+- Transparent background
 
 ### Tmux
-- Prefix key set to Ctrl-a
+- Prefix key set to Ctrl-space
 - Mouse mode enabled
 - Status bar customization
 - Color scheme script for theming
